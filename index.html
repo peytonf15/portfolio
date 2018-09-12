@@ -17,11 +17,16 @@
 
     <style>
         body {
-            background: url(space1-porty.jpg) no-repeat center fixed;
+            background: url(images/space1-porty.jpg) no-repeat center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+        }
+
+        .peyton-professional-img {
+            max-width: 100%;
+            height: auto;
         }
 
         .top-part {
@@ -63,16 +68,24 @@
 
         <main role="main" class="inner cover">
             <h1 class="cover-heading">Portfolio Landing Page</h1>
-            <p class="lead">Welcome to my humble portfolio site. This site will continue to grow as I embark on new journeys
-                and projects. I will credit any and all other individuals that have helped me throughout this process. Thank
-                you for stopping by!</p>
+            <div class="row pt-4">
+                <div class="col-sm">
+                    <img src="images/peyton-professional.JPG" class="rounded float-left peyton-professional-img" alt="Peyton's LinkedIn Headshot">
+                </div>
+                <div class="col-sm">
+                    <p class="lead">Welcome to my humble portfolio site. This site will continue to grow as I embark on new
+                        journeys and projects. I will credit any and all other individuals that have helped me throughout
+                        this process. Thank you for stopping by!</p>
+                </div>
+            </div>
         </main>
 
+        <!--Could use a footer that follows page later on...
         <footer class="mastfoot mt-auto fixed-bottom">
             <div class="inner">
-                <p>Photo by Fonsi Fernández on Unsplash</p>
+                <p></p>
             </div>
-        </footer>
+        </footer> -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
